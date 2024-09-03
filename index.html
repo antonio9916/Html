@@ -17,50 +17,49 @@
       --very-dark-blue-bg: hsl(217, 54%, 11%);
       --very-dark-blue-card: hsl(216, 50%, 16%);
       --very-dark-blue-line: hsl(215, 32%, 27%);
-	  --very-dark-blue-border-a: hsl(217,55%,10%);
-	  --very-dark-blue-border-b: hsl(216,57%,11%);
+      --very-dark-blue-border-a: hsl(217,55%,10%); /*color del borde de la carta no implementado*/
+      --very-dark-blue-border-b: hsl(216,57%,11%); /*color del borde del borde de la carta no implementado*/
       --white: hsl(0, 0%, 100%);
     }
-
-	.image-container {
-	  position: relative;
-	  width: 100%;
-	  max-width: 300px; 
-	  cursor: pointer;
-	}
-
-	.nft-image {
-	  width: 100%;
-	  border-radius: 10px; 
-	  margin-bottom: 5px; 
-	  display: block;
-	}
 	
-	.overlay {
-	  position: absolute;
-	  top: 0;
-	  left: 0;
-	  width: 100%;
-	  height: 100%;
-	  background-color: rgba(0, 255, 255, 0.5);
-	  border-radius: 10px;
-	  display: flex;
-	  align-items: center;
-	  justify-content: center;
-	  opacity: 0; 
-	  transition: opacity 0.3s ease; 
-	}
+    .image-container {
+      position: relative;
+      width: 100%;
+      max-width: 300px; 
+      cursor: pointer;
+    }
 
-	.view-icon {
-	  width: 50px; 
-	  height: 50px;
-	}
+    .nft-image {
+      width: 100%;
+      border-radius: 10px; 
+      margin-bottom: 5px; 
+      display: block;
+    }
+	
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 255, 255, 0.5);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0; 
+      transition: opacity 0.3s ease; 
+    }
 
-	.image-container:hover .overlay {
-	  opacity: 1; 
-	}
-    
-	/* Tipografía */
+    .view-icon {
+      width: 50px; 
+      height: 50px;
+    }
+
+    .image-container:hover .overlay {
+      opacity: 1; 
+    }
+
     body {
       font-family: 'Outfit', sans-serif;
       font-size: 14px;
